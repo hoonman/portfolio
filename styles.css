@@ -20,7 +20,7 @@ img {
 
 .hyperlinks {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
     
 }
@@ -109,6 +109,18 @@ img {
 
     border-radius:10px;
     border: 1px solid #ccc
+}
+
+#parstagram {
+    width: 50%;
+    
+}
+#flixter {
+    width: 50%;
+}
+
+.project-description {
+    margin-top: -20px;
 }
 
 .job1 {
