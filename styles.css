@@ -8,7 +8,6 @@ body {
 img {
     width: 200px;
     height: 200px;
-
 }
 
 #profile {
@@ -28,9 +27,6 @@ img {
     display: grid;
     grid-template-columns: 0.1fr 2fr;
     gap: 10px;
-    /* width: 50%; */
-    /* margin: 100px auto 100px auto; */
-    /* margin: 100px auto ; */
     margin: auto;
 }
 
@@ -63,6 +59,13 @@ img {
     grid-template-columns: auto auto;
     grid-template-columns: auto auto;
     gap: 10px;
+}
+.job-container{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+}
+.date {
+    text-align: right;
 }
 
 .project-item {
@@ -110,6 +113,9 @@ img {
     border-radius:10px;
     border: 1px solid #ccc
 }
+.job-desc-list{
+    margin-top: -13px;
+}
 
 #parstagram {
     width: 50%;
@@ -121,24 +127,44 @@ img {
 
 .project-description {
     margin-top: -20px;
+    font-style: italic;
+    color: gray;
+}
+
+.job-image {
+    width: 75px;
+    height: 75px;
 }
 
 .job1 {
     margin-bottom: 0;
 }
+
+.skills-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+}
+
+.contact-container {
+    display: grid;
+}
+
 @media (min-width: 319px) and (max-width: 480px) {
     body {
-        width: 80%;
+        width: 60%;
+        /* switch the grid layout? */
     }
 }
 @media (min-width: 481px) and (max-width: 1200px) {
     body {
-        width: 50%;
+        width: 60%;
+        /* have the text go under the image? */
     }
 }
 @media (min-width: 1201px) and (max-width: 1600px) {
     body {
-        width: 45%
+        width: 50%;
     }
 }
 @media (min-width: 1601px) {
