@@ -117,18 +117,25 @@ img {
     margin-top: -13px;
 }
 
-#parstagram {
+.parstagram {
     width: 50%;
     
 }
 #flixter {
     width: 50%;
 }
+#parse {
+    width: 50%;
+}
+#tweet {
+    width: 50%  
+}
 
 .project-description {
     margin-top: -20px;
     font-style: italic;
-    color: gray;
+    color: rgb(41, 41, 41);
+    font-size: 15px;
 }
 
 .job-image {
