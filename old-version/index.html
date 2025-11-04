@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Jaehoon Song
+EMAIL: jaehoos1@uci.edu
+-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Your name here">
+    <meta name="description" content="description of your page">
+    <!-- you would link to an external stylesheet here! -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- you would also link to Bootstrap here! -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sacramento&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <title>Jaehoon Song</title>
+
+</head>
+
+<body>
+    <p>
+        <a href="http://validator.w3.org/check?uri=referer">
+            W3C validator
+        </a>
+    </p>
+
+    <h1 class="hi">I'm Jaehoon!</h1>
+    <div>
+        <div class="container">
+            <div class="grid-pic">
+                <img src="./assets/profile_pic.png" id="profile" 
+                    class="img-fluid rounded mx-auto d-block" alt="picture of Jaehoon Song">
+            </div>
+            <div class="bio">
+                <p>My name is Jaehoon Song, an undergraduate at UC Irvine. <br> I love working on full-stack projects
+                    with new technologies! In my free time, I enjoy drawing and designing assets for my dream game
+                    project ✍️🎨, love watching films (Ratatouille is my favorite 🐀🧀!), and enjoy cooking my favorite
+                    korean dishes🧑‍🍳! </p>
+                <div class="hyperlinks">
+                    <a href="./assets/jaehoon_song_resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+                    <a href="https://linkedin.com/in/hoonman" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://github.com/hoonman" target="_blank" rel="noopener noreferrer">Github</a>
+                    <a href="https://www.youtube.com/channel/UCDOououwljn8Y9Fx9BnBW6A" target="_blank" 
+                        rel="noopener noreferrer">YouTube</a>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <hr>
+
+    <div class="education">
+        <h2>Education</h2>
+        <div>
+            <p>University of California, Irvine -- Expected graduation: 2024</p>
+            <ul>
+                <li>Bachelor of Science</li>
+                <li>GPA: 3.77/4.0</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="projects">
+        <h2>Projects</h2>
+        <h3 style="color: rgb(41, 41, 41); font-style: italic" class="project-description">These are some of the projects I have
+            made throughout my years in Uni! Feel free to hover over them to see its description!</h3>
+        <div class="project-container">
+            <div class="project-item"
+                data-text="Fabflix: A full-stack movie database website. Built using Java, JDBC, hosted on Tomcat, deployed on AWS.">
+                <img class="project-pic" src="./assets/fabflix-demo.gif" alt="GIF demo for the Fabflix project">
+                <!-- <a href="https://github.com/hoonman/moviedb">Fabflix</a> -->
+            </div>
+
+            <div class="project-item"
+                data-text="Search Engine: Built from ground up. Utilized inverted index using multi-processing and n-grams. Web interface was designed using Flask. ">
+                <img class="project-pic" src="./assets/search_engine.gif" alt="GIF demo for the Search Engine project">
+            </div>
+            <div class="project-item"
+                data-text="Venus-Lingo: A Google Chrome extension that allows users to highlight words and translate them on command. Used Google Translate API, React & Firebase for web-app.">
+                <img class="project-pic" src="./assets/venus.jpeg" alt="GIF demo for the Venus-Lingo project">
+            </div>
+            <div class="project-item"
+                data-text="Analysis of CIFAR-10: a Machine Learning project reasoning and visualizing why Pytorch's CNN is the most accurate model for CIFAR-10 dataset">
+                <img class="project-pic" src="./assets/analysis_cifar_2.png" alt="GIF demo for the M.L. project">
+                 
+            </div>
+            <div class="project-item"
+                data-text="Graphics Modeler: C++ application that can draw and delete shapes on a x-y coordinate system. Utilized Agile and Scrum, organized UML diagrams, and ran Doxygen for documentation.">
+                <img class="project-pic" src="./assets/moving_shapes.gif" alt="GIF demo for the Graphics Modeler project">
+            </div>
+            <div class="project-item" data-text="Parstagram: An Android Instagram clone-app">
+                <img class="project-pic" src="./assets/parstagram.gif" id="parse" alt="GIF demo for the Parstagram project">
+            </div>
+            <div class="project-item" data-text="SimpleTweet: An Android Twitter clone-app">
+                <img class="project-pic" src="./assets/tweet.gif" id="tweet" alt="GIF demo for the SimpleTweet project">
+            </div>
+            <div class="project-item" data-text="Flixter: movie database Android app">
+                <img class="project-pic" src="./assets/flixter.gif" id="flixter" alt="GIF demo for the Flixter project">
+            </div>
+
+        </div>
+
+        <h2>Games</h2>
+        <h3 style="color: rgb(41, 41, 41); font-style: italic" class="project-description">Game-related projects! I'm deeply
+            passionate about game-design and I create one whenever I have some spare time.</h3>
+        <div class="project-container">
+            <div class="project-item" data-text="Crucifers: a Minecraft datapack showcasing weapon effects">
+                <img class="project-pic" src="./assets/visceral.gif" alt="GIF demo for the Crucifers project">
+            </div>
+            <div class="project-item"
+                data-text="Swords and Shovels: a dungeon crawler game in Unity (one level implemented)">
+                <img class="project-pic" src="./assets/cameraMovement.gif" alt="GIF demo for the Unity project">
+            </div>
+            <div class="project-item"
+                data-text="Light and Sound Memory Game: a simple sound and memory game created using html, css, and javascript">
+                <img class="project-pic" src="./assets/light_and_sound.gif" alt="GIF demo for the Light n Sound Memory Game project">
+            </div>
+        </div>
+        <!-- 
+            SCRAPPED BUT MIGHT COME BACK LATER BEYOND THIS ASSIGNMENT!
+        <h2>Graphic Design/Art</h2>
+        <h4 style="color: gray; font-style: italic" class="project-description">My graphic designs, art, assets, and
+            more!</h4>
+    </div> -->
+
+   
+
+        <h2>Experience</h2>
+        <div class="job-master-container">
+            <!-- <div class="job-logo">
+                <img class="job-image" src="./assets/lemur.png">
+            </div> -->
+            <div class="job-container">
+                <div class="job-title">
+                    <h3>CodeCheck CTI-CodeDay SWE Internship
+                    </h3>
+                </div>
+                <div class="date-box">
+                    <p class="date">Oct. 2023 - Dec. 2023</p>
+                </div>
+                <div class="job-desc">
+                    <h4 class="project-description">CTI-CodeDay: Open-source Project Internship
+                    </h4>
+                </div>
+            </div>
+            <div class="job-desc-container">
+                <ul class="job-desc-list">
+                    <li>Collaborated with 2 interns to enhance CodeCheck, an autograder, with a JavaScript UI and AWS
+                        backend</li>
+                    <li>Optimized the Javascript code editor for long texts by implementing a responsive expand/collapse
+                        button
+                    </li>
+                </ul>
+            </div>
+            <div class="job-container">
+                <div class="job-title">
+                    <h3>Graphics Organizer</h3>
+                </div>
+                <div class="date-box">
+                    <p class="date">Dec. 2023 - Present</p>
+                </div>
+                <div class="job-desc">
+                    <h4 class="project-description">HACK at UCI</h4>
+                </div>
+            </div>
+            <div class="job-desc-container">
+                <ul class="job-desc-list">
+                    <li>Prototyped Figma UI/UX mockups that were used for Hack at UCI (2022) and ZotHacks (2023).</li>
+                    <li>Designed various social media graphics used for Hack at UCI events, workshops, as well as
+                        sponsor posts.</li>
+                </ul>
+            </div>
+            <div class="job-container">
+                <div class="job-title">
+                    <h3>Coding Instructor</h3>
+                </div>
+                <div class="date-box">
+                    <p class="date">Mar. 2023 - Sep. 2023</p>
+                </div>
+                <div class="job-desc">
+                    <h4 class="project-description">TheCoderSchool</h4>
+                </div>
+            </div>
+            <div class="job-desc-container">
+                <ul class="job-desc-list">
+                    <li>Educated K-12 students various high-level programming languages such as Python and C++</li>
+                    <li>Tailored exclusive coaching and geared students with creative app-dev skills, debug methods, and
+                        OOP concepts</li>
+                    <li>Innovated a project template used for providing learning objectives for future students</li>
+                </ul>
+            </div>
+            <div class="job-container">
+                <div class="job-title">
+                    <h3>Software Research Assistant</h3>
+                </div>
+                <div class="date-box">
+                    <p class="date">Jun. 2021 - Sep.2021</p>
+                </div>
+                <div class="job-desc">
+                    <h4 class="project-description">UCLA Laboratory for Embedded Machines and Ubiquitous Robots</h4>
+                </div>
+            </div>
+            <div class="job-desc-container">
+                <ul class="job-desc-list">
+                    <li>Improved the user interface for ROCO, an Origami generator for the web with Django and Flask
+                    </li>
+                    <li>Collaborated with 5 research members for demonstrating communication between Origami robots with
+                        Lidar camera detection</li>
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="skills">
+        <h2>Skills</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Languages</th>
+                    <th>Framework</th>
+                    <th>Developer Tools</th>
+                    <th>Libraries</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Java, Python, C/C++, SQL (mySQL), JavaScript, HTML/CSS, R</td>
+                    <td>React, Node.js, Flask, JUnit</td>
+                    <td>Git, Docker, Qt, Google Cloud Platform, IntelliJ, AWS, Maven, Tomcat, Linux</td>
+                    <td>pandas, NumPy, Matplotlib</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- <div class="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+
+            <h3>Languages:</h3>
+            <p>Java, Python, C/C++, SQL (mySQL), JavaScript, HTML/CSS, R</p>
+
+            <h3>Framework: </h3>
+            <p>React, Node.js, Flask, JUnit</p>
+
+            <h3>Developer Tools:</h3>
+            <p>Git, Docker, Qt, Google Cloud Platform, IntelliJ, AWS, Maven, Tomcat, Linux</p>
+
+            <h3>Libraries:</h3>
+            <p>pandas, NumPy, Matplotlib</p>
+        </div>
+    </div> -->
+
+    <div class="contact">
+        <h2>Contact Me!</h2>
+        <div class="contact-container">
+            <div class="mb-3 row">
+                <label for="emailID" class="form-label col-md-2">Email</label>
+                <div class="col-md-10">
+                    <input type="email" class="form-control" id="emailID" placeholder="name@example.com">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="bio" class="form-label col-md-2">Message</label>
+                <div class="col-md-10">
+                    <textarea class="form-control" id="bio" rows="3" placeholder="Short description"></textarea>
+                </div>
+            </div>
+        </div>
+        
+
+
+    </div>
+
+    <hr>
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/hoonman/">LinkedIn</a>
+        <a class="footer-link" href="https://github.com/hoonman">Github</a>
+        <a class="footer-link" href="https://www.jaehoonsong.com/">Website</a>
+    </div>
+
+    
+
+</body>
+
+</html>
